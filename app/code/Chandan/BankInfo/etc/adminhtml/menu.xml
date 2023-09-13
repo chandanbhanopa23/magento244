@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+     <add id="Chandan_BankInfo::menu" title="Bank Info" module="Chandan_BankInfo" sortOrder="10" resource="Chandan_BankInfo::menu"/>
+     <add id="Chandan_BankInfo::bankList" title="Bank List" module="Chandan_BankInfo" sortOrder="10" parent="Chandan_BankInfo::menu" action="bank/index/index" resource="Chandan_BankInfo::bank_list"/>
+    </menu>
+</config>
